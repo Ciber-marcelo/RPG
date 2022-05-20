@@ -78,6 +78,7 @@ export function AppointmentDetails() {
     //essa função é para um botão que eu comentei
     async function excluir() {
         const storage = await AsyncStorage.clear();
+        
         //const appointments = storage ? JSON.parse(storage) : [];
         //getItem(COLLECTION_APPOINTMENTS);
         // const storage = await AsyncStorage.getItem(COLLECTION_APPOINTMENTS);
